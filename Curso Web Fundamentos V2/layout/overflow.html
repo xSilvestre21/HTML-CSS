@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit contente</title>
+    <style>
+        body{
+            margin-bottom: 500px;
+        }
+        
+        .container{
+            border: 2px solid black;
+            padding: 16px;
+            width: 300px;
+            margin-bottom: 16px;
+            height: 300px;
+            background-color: rgba(255, 0, 0, .5)
+        }
+
+        .Item{
+            background-color: blueviolet;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .fit-content .Item{
+            width: fit-content;
+        }
+
+        .min-content .Item{
+            width: min-content;
+        }
+
+        .max-content .Item{
+            width: max-content;
+        }
+
+        .overflow-hidden{
+            overflow: hidden;
+        }
+
+        .overflow-scroll{
+            overflow: scroll;
+        }
+
+        .overflow-auto{
+            overflow: auto;
+        }
+
+        .overflow-y-hidden{
+            overflow-y: hidden;
+        }
+
+        .overflow-x-hidden{
+            overflow-x: hidden;
+        }
+
+        .overflow-x-scroll{
+            overflow-x: scroll;
+        }
+
+        .overflow-visible{
+            overflow: visible;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container fit-content overflow-hidden">
+        <div class="Item">Lorem</div>
+        <div class="Item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, at.</div>
+        <div class="Item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate blanditiis placeat veniam quas ipsa? Voluptate in autem voluptatem deserunt cum accusamus maxime ducimus aperiam natus.</div>
+        <div class="Item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At et dolorem earum quisquam eius adipisci tenetur itaque fuga, molestias nobis provident ipsa? Ullam at laudantium veritatis, iure, dolorem aspernatur alias cumque pariatur quod itaque voluptate quaerat ipsa voluptatibus! Minus molestias alias magnam quam id pariatur. Hic, ipsum. Unde laborum animi nisi nam temporibus distinctio laboriosam, tempora error magni, reprehenderit dicta nostrum nobis labore commodi ad aliquam voluptate veritatis. Voluptatibus incidunt placeat optio ex, velit numquam?</div>
+    </div>
+
+    <div class="container min-content overflow-auto">
+        <div class="Item">Lorem</div>
+        <div class="Item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, at.</div>
+        <div class="Item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate blanditiis placeat veniam quas ipsa? Voluptate in autem voluptatem deserunt cum accusamus maxime ducimus aperiam natus.</div>
+        <div class="Item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At et dolorem earum quisquam eius adipisci tenetur itaque fuga, molestias nobis provident ipsa? Ullam at laudantium veritatis, iure, dolorem aspernatur alias cumque pariatur quod itaque voluptate quaerat ipsa voluptatibus! Minus molestias alias magnam quam id pariatur. Hic, ipsum. Unde laborum animi nisi nam temporibus distinctio laboriosam, tempora error magni, reprehenderit dicta nostrum nobis labore commodi ad aliquam voluptate veritatis. Voluptatibus incidunt placeat optio ex, velit numquam?</div>
+    </div>
+
+    <div class="container max-content overflow-auto">
+        <div class="Item">Lorem</div>
+        <div class="Item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, at.</div>
+        <div class="Item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate blanditiis placeat veniam quas ipsa? Voluptate in autem voluptatem deserunt cum accusamus maxime ducimus aperiam natus.</div>
+        <div class="Item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At et dolorem earum quisquam eius adipisci tenetur itaque fuga, molestias nobis provident ipsa? Ullam at laudantium veritatis, iure, dolorem aspernatur alias cumque pariatur quod itaque voluptate quaerat ipsa voluptatibus! Minus molestias alias magnam quam id pariatur. Hic, ipsum. Unde laborum animi nisi nam temporibus distinctio laboriosam, tempora error magni, reprehenderit dicta nostrum nobis labore commodi ad aliquam voluptate veritatis. Voluptatibus incidunt placeat optio ex, velit numquam?</div>
+    </div>
+
+
+    
+</body>
+</html>

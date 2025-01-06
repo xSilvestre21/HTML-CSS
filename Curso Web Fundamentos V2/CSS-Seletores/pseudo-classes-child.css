@@ -1,0 +1,35 @@
+p:first-child {
+    color: red;
+}
+
+p:last-child {
+    color: orange;
+}
+
+p:nth-child(2) {
+    background-color: blueviolet;
+}
+
+p:first-of-type {
+    background-color: palegreen;
+}
+
+p:last-of-type {
+    background-color: gray;
+}
+
+p:nth-of-type(3){
+    text-decoration: underline;
+}
+
+li:nth-child(3n) {
+    color: blue;
+}
+
+li:nth-child(3n-2) {
+    background-color: brown;
+}
+
+p:nth-of-type(3n-2) {
+    text-align: right;
+}

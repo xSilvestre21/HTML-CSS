@@ -1,0 +1,133 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+@font-face{
+    font-family: Viaoda Libre;
+    src: 
+    local("Viaoda Libre"),
+    local("Viaoda Libre"),
+    url(font/Viaoda_Libre/ViaodaLibre-Regular.ttf) format("truetype");
+}
+body{
+    font-family: 'Roboto';
+    margin: 0 auto;
+    padding: 0;
+    width: 80vw;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #162028;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.logo{
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: normal;
+    color: white;
+    margin: 0 0 0 200px;
+   
+    
+}
+
+.botoes ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.botoes a{
+    margin-right: 40px;
+    font-size: .9em;
+    color: #425564;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.img img{
+    width: 100%;
+}
+
+.text h1{
+    font-family: 'Viaoda Libre';
+    font-weight: normal;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text p{
+    text-align: center;
+    width: 90ch;
+    line-height: 1.8;
+    margin: auto;
+    margin-top: 40px;
+    color: #555;
+}
+
+.outfits{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.outfits article{
+    margin-left: 30px;
+}
+
+.outfits h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.outfits p{
+    color: #555;
+    text-align: center;
+}
+
+.endtext{
+    margin-top: 4em;
+    background-color:  #003d52;
+    padding: 150px 0px 90px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 550px;
+    
+}
+
+.text__endtext{
+    width: 80%;
+    margin: auto;
+}
+
+.text__endtext h1{
+    font-family: 'Viaoda Libre';
+    font-weight: normal;
+    font-size: 3em;
+}
+.text__endtext p{
+    text-align: left;
+    width: 65ch;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-top: 40px;
+
+}
+
+.rodape{
+    background-color:  #0b171f;
+    padding: 18px;
+    color: #6f8597;
+    text-align: center;
+}
+

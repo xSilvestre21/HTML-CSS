@@ -1,0 +1,82 @@
+html{
+    background-color: #83827c;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.title{
+    padding: .50em;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+form{
+    width: 350px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 1em;
+    
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+input,
+label{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: .25em;
+}
+
+input{
+    padding: .75em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    border: 1px solid #bbb;
+    font-size: 1em;
+}
+
+legend{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #5f6168;
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+
+.btn{
+    /* width: fit-content; */
+    margin-left: auto;
+    background-color: #260e91;
+    color: white;
+    cursor: pointer;
+}
+
+.actions{
+    display: flex;
+    gap: 1em;
+}
+
+.btn--apagar{
+    background-color: rgb(165, 65, 65);
+    color: white;
+    cursor: pointer;
+}

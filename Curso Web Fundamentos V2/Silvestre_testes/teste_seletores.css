@@ -1,0 +1,27 @@
+article {
+    outline: 10px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+article h2 + p {
+    color: red;
+}
+
+p ~ p {
+    color: blue;
+}
+
+p:not(.jumanji) {
+    background-color: #ccc;
+}
+
+.jumanji {
+    padding-left: 50px;
+}
+
+article p:not(.jumanji) {
+    margin-top: 90px;
+}
