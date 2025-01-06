@@ -1,2 +1,2 @@
-# HTML-CSS
-HTML and CSS studies
+# HTML and CSS
+HTML and CSS studies 🔷
